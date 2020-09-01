@@ -167,8 +167,8 @@ case ${DUMP1090OPTION} in
         cd ${RECEIVER_BUILD_DIRECTORY} 2>&1
         git clone https://github.com/flightaware/piaware_builder.git
         cd ${RECEIVER_BUILD_DIRECTORY}/piaware_builder 2>&1
-        ./sensible-build.sh jessie
-        cd ${RECEIVER_BUILD_DIRECTORY}/piaware_builder/package-jessie 2>&1
+        ./sensible-build.sh buster
+        cd ${RECEIVER_BUILD_DIRECTORY}/piaware_builder/package-buster 2>&1
         dpkg-buildpackage -b
         sudo dpkg -i ${RECEIVER_BUILD_DIRECTORY}/piaware_builder/piaware_*.deb
         ;;
