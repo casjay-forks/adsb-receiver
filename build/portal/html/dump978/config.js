@@ -26,18 +26,18 @@ ShowOtherUnits = true;
 // degrees.
 
 // Default center of the map.
-DefaultCenterLat = 45.0;
-DefaultCenterLon = 9.0;
+DefaultCenterLat = 42.99106979370117;
+DefaultCenterLon = -74.11241912841797;
 // The google maps zoom level, 0 - 16, lower is further out
-DefaultZoomLvl   = 7;
+DefaultZoomLvl   = 8;
 
 // Center marker. If dump1090 provides a receiver location,
 // that location is used and these settings are ignored.
 
-SiteShow    = false;           // true to show a center marker
-SiteLat     = "41.3872537"
-SiteLon     = "-82.0769568"
-SiteName    = "My Radar Site"; // tooltip of the marker
+SiteShow    = True;           // true to show a center marker
+SiteLat     = "42.99106979370117"
+SiteLon     = "-74.11241912841797"
+SiteName    = "CasjaysDev"; // tooltip of the marker
 
 // -- Marker settings -------------------------------------
 
