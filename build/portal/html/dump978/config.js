@@ -26,15 +26,15 @@ ShowOtherUnits = true;
 // degrees.
 
 // Default center of the map.
-DefaultCenterLat = 42.99106979370117;
-DefaultCenterLon = -74.11241912841797;
+DefaultCenterLat = "42.99106979370117";
+DefaultCenterLon = "-74.11241912841797";
 // The google maps zoom level, 0 - 16, lower is further out
 DefaultZoomLvl   = 8;
 
 // Center marker. If dump1090 provides a receiver location,
 // that location is used and these settings are ignored.
 
-SiteShow    = True;           // true to show a center marker
+SiteShow    = true;           // true to show a center marker
 SiteLat     = "42.99106979370117"
 SiteLon     = "-74.11241912841797"
 SiteName    = "CasjaysDev"; // tooltip of the marker
